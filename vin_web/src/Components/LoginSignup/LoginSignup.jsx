@@ -56,10 +56,6 @@ const LoginSignup = () => {
                         </div>
                     )
                 )}</div>
-
-                <div>
-                    <MarkdownViewer markdownFilePath={Path}/>
-                </div>
             
             <div className='submit-container'>
                 <button className={action==="Login"?"submit gray":"submit"} onClick={() => { setAction("Sign Up"); getusers() }} >Sign Up</button>

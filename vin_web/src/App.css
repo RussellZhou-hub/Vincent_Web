@@ -38,3 +38,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.navbar{
+  width:100%;
+  align-content: flex-start;
+  text-align: left;
+  position: fixed;
+  top:0;
+  left:15%;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-list{
+  display: flex;
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}

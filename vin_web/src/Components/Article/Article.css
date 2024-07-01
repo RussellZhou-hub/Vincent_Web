@@ -1,0 +1,7 @@
+.md-body{
+    width:80%;
+    display: flexbox;
+    justify-content:center;
+    align-items: center;
+
+}
