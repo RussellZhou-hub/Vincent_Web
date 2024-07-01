@@ -1,10 +1,14 @@
 import React,{useState} from 'react' 
 import './LoginSignup.css'
 import Axios from "axios";
+import ReactMarkdown from 'react-markdown'
+import Path from '../MarkdownViewer/test.md';
 
 import user_icon from '../Assets/person.png'
 import email_icon from '../Assets/email.png'
 import password_icon from '../Assets/password.png'
+
+import MarkdownViewer from '../MarkdownViewer/MarkdownViewer';
 
 
 
@@ -52,6 +56,10 @@ const LoginSignup = () => {
                         </div>
                     )
                 )}</div>
+
+                <div>
+                    <MarkdownViewer markdownFilePath={Path}/>
+                </div>
             
             <div className='submit-container'>
                 <button className={action==="Login"?"submit gray":"submit"} onClick={() => { setAction("Sign Up"); getusers() }} >Sign Up</button>
