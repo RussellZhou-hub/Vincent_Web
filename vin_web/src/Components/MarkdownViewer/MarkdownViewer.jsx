@@ -44,7 +44,7 @@ const MarkdownViewer = ({ markdownFilePath }) => {
     return (
         
       <div className='markdown-container'>
-        <ReactMarkdown Plugins={[gfm]}
+        <ReactMarkdown Plugins={[gfm]} urlTransform={ uri => uri.startsWith('http') ? uri : `${process.env.PUBLIC_URL} ${uri}`}
             components={
                 {
                     code({node,inline,className,children, ...props}){
