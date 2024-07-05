@@ -1,0 +1,54 @@
+.nav-area {
+    display: flex;
+    width:100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-size: 25px;
+    color: inherit;
+    margin-right: 20px;
+  }
+  
+  .menus {
+    display: fixed;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .menu-items {
+    position: relative;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left:20px;
+  }
+  
+  .menu-items a {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .menu-items a:hover {
+    display: block;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgb(103, 77, 51);
+  }
+  
+  .menu-items button {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+  }

@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Article from './Components/Article/Article';
 import About from './Components/About/About.jsx';
+import Navbar from "./Components/Navbar/Navbar.jsx";
 
 function App() {
   return (
@@ -22,11 +23,22 @@ function App() {
                 <li className="navbar-item">
                   <Link to="/article">Article</Link>
                 </li>
+
+                
+
                 <li className="navbar-item">
                   <Link to="/about">About</Link>
                 </li>
               </ul>
             </nav>
+            {/* for navbar menu */}
+            <div className="nav-area">
+              <a href="/#" className="logo">
+                Logo
+              </a>
+              <Navbar />
+            </div>
+
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>

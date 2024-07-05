@@ -40,7 +40,21 @@
 }
 
 
+.nav-area {
+  width:100%;
+  align-content: flex-start;
+  text-align: left;
+  position: fixed;
+  align-items: center;
+  margin: 0 auto;
+  padding: 8px;
+  top: 70px;
+  height: 6rem;
+  left:15%;
+  background-color: #333;
 
+  border-radius: 8px;
+}
 
 .navbar{
   width:100%;
@@ -50,7 +64,9 @@
   top:0;
   left:15%;
   background-color: #333;
+  height: 6rem;
   padding: 1rem;
+  border-radius: 8px;
 }
 
 .navbar-list{
@@ -64,5 +80,12 @@
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-size: 1.5rem; 
   display: block;
+}
+
+.navbar-item a:hover {
+  background-color: #575757;
+  font-size: 2rem; /* 增大字体大小 */
+  border-radius: 4px;
 }
