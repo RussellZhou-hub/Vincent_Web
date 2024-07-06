@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 import Home from '../Home/Home';
 import Article from '../Article/Article';
-import About from '../About/About.jsx';
+import Login from '../Login/Login.jsx';
 import Dropdown from "../Dropdown/Dropdown.jsx";
 import { useState, useEffect, useRef } from "react";
 
@@ -112,6 +112,6 @@ export const menuItems = [
        ]
     },
     {
-     title: "About"
+     title: "Login"
     }
    ];
