@@ -18,7 +18,7 @@ function App() {
             <nav className="navbar">
               <ul className="navbar-list">
                 <li className="navbar-item">
-                  <Link to="/">Home</Link>
+                  <Link to="/home">Home</Link>
                 </li>
                 <li className="navbar-item">
                   <Link to="/article">Article</Link>
@@ -40,7 +40,7 @@ function App() {
             </div>
 
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
             </Routes>
             <Routes>
               <Route path="/article" element={<Article />} />
