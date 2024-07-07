@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 import Article from './Components/Article/Article';
 import Login from './Components/Login/Login.jsx';
 import Navbar from "./Components/Navbar/Navbar.jsx";
+import Project_star from './Components/ProjectStar/ProjectStar.jsx';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/login" element={<Login />} />
+            </Routes>
+            <Routes>
+              <Route path="/Project_star" element={<Project_star />} />
             </Routes>
           </div>
         </Router>

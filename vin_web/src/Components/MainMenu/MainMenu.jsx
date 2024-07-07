@@ -107,7 +107,7 @@ export const menuItems = [
          ]
         },
         {
-         title: "project star"
+         title: "project_star"
         }
        ]
     },
