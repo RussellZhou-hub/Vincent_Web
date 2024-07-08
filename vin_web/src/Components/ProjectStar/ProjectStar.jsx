@@ -3,6 +3,7 @@ import './ProjectStar.css'
 import Axios from "axios";
 import ReactMarkdown from 'react-markdown'
 import Path from '../MarkdownViewer/project_star.md';
+import VideoPlayer from '../VideoPlayer/VideoPlayer';
 
 import MarkdownViewer from '../MarkdownViewer/MarkdownViewer';
 import  "./ProjectStar.css";
@@ -15,6 +16,7 @@ const Project_star = () => {
             -------------------------------------------------------------------------------------------------
         </div>
         <div className='md-body'>
+            <VideoPlayer videoName="sample-5s.mp4"/>
             <MarkdownViewer markdownFilePath={Path}/>
         </div>
         </div>

@@ -1,0 +1,15 @@
+.App {
+    text-align: center;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  video {
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
