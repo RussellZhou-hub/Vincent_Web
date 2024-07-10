@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   color:#282c34;
-  background-color: #282c34;
+  background-color: rgb(169, 167, 181);
 }
 
 .App-logo {
@@ -15,7 +15,7 @@
   }
 }
 
-.App-header {
+.App-header {     /* whole background */
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,6 +24,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* background-color: rgb(169, 167, 181); */
 }
 
 .App-link {
@@ -44,7 +45,7 @@
   width:100%;
   align-content: flex-start;
   text-align: left;
-  position: fixed;
+  position: absolute; /* use absolute NOT fixed , so video wont be on top of it */
   align-items: center;
   margin: 0 auto;
   padding: 8px;

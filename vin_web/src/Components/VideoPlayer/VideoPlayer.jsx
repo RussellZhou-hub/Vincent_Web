@@ -1,7 +1,7 @@
 import "./VideoPlayer.css"
 import React from 'react';
 
-const VideoPlayer = ( {videoName} ) => {
+const VideoPlayer = ( {videoName,videoWidth,videoHeight} ) => {
 
     
     const jsonString = JSON.stringify(videoName, null, 2);
@@ -12,7 +12,7 @@ const VideoPlayer = ( {videoName} ) => {
 
     return (
       <div className="video-container">
-        <video width="640" height="360" controls autoPlay muted>
+        <video className="video" width={videoWidth} height={videoHeight} controls autoPlay muted>
          
           <source src={v_name} type="video/mp4" />
           Your browser does not support the video tag.

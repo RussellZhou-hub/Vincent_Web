@@ -3,13 +3,21 @@
   }
   
   .video-container {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
     margin: 20px 0;
   }
   
   video {
+    position: relative;
     border: 1px solid transparent;
     border-radius: 8px;
+    z-index: 0;
+  }
+
+  video video{
+    z-index: -1;
   }

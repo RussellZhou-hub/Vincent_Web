@@ -16,7 +16,7 @@ const Project_star = () => {
             -------------------------------------------------------------------------------------------------
         </div>
         <div className='md-body'>
-            <VideoPlayer videoName="sample-5s.mp4"/>
+            <VideoPlayer videoName="sample-5s.mp4" videoWidth="960" videoHeight="540"/>
             <MarkdownViewer markdownFilePath={Path}/>
         </div>
         </div>

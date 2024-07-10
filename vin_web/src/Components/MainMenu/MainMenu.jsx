@@ -12,6 +12,8 @@ const MenuItems = ({ items, depthLevel }) => {
 
     const [isShowDropdown, setIsShowDropdown] = useState(false);
 
+    const [mouseDown,SetMouseDown] = useState(false);
+
     const toRoute="/"+items.title;
 
     let ref = useRef();
@@ -24,11 +26,11 @@ const MenuItems = ({ items, depthLevel }) => {
          }
         };
         document.addEventListener("mousedown", handler);
-        document.addEventListener("touchstart", handler);
+        //document.addEventListener("touchstart", handler);
         return () => {
          // Cleanup the event listener
          document.removeEventListener("mousedown", handler);
-         document.removeEventListener("touchstart", handler);
+         //document.removeEventListener("touchstart", handler);
         };
        }, [isShowDropdown]);
 
@@ -37,7 +39,7 @@ const MenuItems = ({ items, depthLevel }) => {
        };
        
        const onMouseLeave = () => {
-        window.innerWidth > 960 && setIsShowDropdown(false);
+        //window.innerWidth > 960 && setIsShowDropdown(false);
        };
 
  return (

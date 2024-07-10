@@ -23,18 +23,21 @@
     margin-right:10px;
     padding: 5px;
     border-radius: 0.5rem;
+    z-index: inherit;
   }
 
   .dropdown-menu-items a:hover {
     background-color: #848484;
     font-size: 22px;
     border-radius: 0.5rem;
+    z-index: inherit;
   }
 
   .dropdown-menu-items Link:hover {
     font-size: 22px;
     background-color: #525252;
     border-radius: 0.5rem;
+    z-index: inherit;
   }
 
   .dropdown.show {
@@ -44,6 +47,7 @@
   .dropdown .dropdown-submenu {
     position: absolute;
     background-color: #333;
+    z-index: inherit;
     left: 100%;
     top: -7px;
   }
@@ -51,5 +55,6 @@
   .dropdown .dropdown-submenu:hover {
     background-color:  #333;
     font-size: 2rem; /* 增大字体大小 */
+    z-index: inherit;
     border-radius: 4px;
   }
