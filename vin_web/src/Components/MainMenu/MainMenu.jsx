@@ -106,6 +106,9 @@ export const menuItems = [
             {
                 title: "Rage",
             },
+            {
+                title: "MayaRig_V2",
+            },
          ]
         },
         {

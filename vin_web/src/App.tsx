@@ -9,6 +9,7 @@ import Article from './Components/Article/Article';
 import Login from './Components/Login/Login.jsx';
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Project_star from './Components/ProjectStar/ProjectStar.jsx';
+import MayaRig_V2 from './Components/MayaRig_V2/MayaRig_V2.jsx';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/Project_star" element={<Project_star />} />
+            </Routes>
+            <Routes>
+              <Route path="/MayaRig_V2" element={<MayaRig_V2 />} />
             </Routes>
           </div>
         </Router>

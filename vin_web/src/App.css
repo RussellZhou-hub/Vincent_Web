@@ -45,7 +45,7 @@
   width:100%;
   align-content: flex-start;
   text-align: left;
-  position: absolute; /* use absolute NOT fixed , so video wont be on top of it */
+  position:absolute; /* use absolute NOT fixed , so video wont be on top of it */
   align-items: center;
   margin: 0 auto;
   padding: 8px;
