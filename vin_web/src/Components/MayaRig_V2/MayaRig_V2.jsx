@@ -16,6 +16,11 @@ const MayaRig_V2 = () => {
             -------------------------------------------------------------------------------------------------
         </div>
         <div className='md-body'>
+        <div>
+        <a href="img/img_hand.png" download="img_hand.png">
+            Download image
+        </a>
+        </div>
             <MarkdownViewer markdownFilePath={Path}/>
         </div>
         </div>
