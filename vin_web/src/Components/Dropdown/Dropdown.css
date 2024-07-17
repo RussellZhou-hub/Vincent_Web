@@ -31,6 +31,7 @@
     font-size: 22px;
     border-radius: 0.5rem;
     z-index: inherit;
+    width:inherit;
   }
 
   .dropdown-menu-items Link:hover {
@@ -38,10 +39,12 @@
     background-color: #525252;
     border-radius: 0.5rem;
     z-index: inherit;
+    width:inherit;
   }
 
   .dropdown.show {
     display: block;
+    width:fit-content;
   }
   
   .dropdown .dropdown-submenu {
@@ -50,6 +53,7 @@
     z-index: inherit;
     left: 100%;
     top: -7px;
+    width:fit-content;
   }
 
   .dropdown .dropdown-submenu:hover {

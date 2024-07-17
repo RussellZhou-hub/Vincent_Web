@@ -1,10 +1,10 @@
-## Project Star
+# Project Star
 
-![image test](img/img_1.png)
+ --
 
-```
-   int main()
-   {
-        return 0;
-   }
-```
+## 《代号：星》写实3D游戏
+
+--
+
+
+[注释]: # "这是一个注释"

@@ -8,16 +8,30 @@ import VideoPlayer from '../VideoPlayer/VideoPlayer';
 import MarkdownViewer from '../MarkdownViewer/MarkdownViewer';
 import  "./ProjectStar.css";
 
+//<VideoPlayer videoName="sample-5s.mp4" videoWidth="960" videoHeight="540"/>
+
 const Project_star = () => {
     return <div>
             <h2> --</h2>
             <h2>Project : Star</h2>
-            <div>
-            -------------------------------------------------------------------------------------------------
+            <div className='splash_line'>
+—————————————————————————————————————————————————————————————
         </div>
         <div className='md-body'>
-            <VideoPlayer videoName="sample-5s.mp4" videoWidth="960" videoHeight="540"/>
+            
             <MarkdownViewer markdownFilePath={Path}/>
+
+            <div width='100%'>
+            <img src="img/img_cover.jpg" width="50%"></img>
+            </div>
+            <div>图1:实机运行画面</div>
+            <div width='100%'>
+            <img src="img/img_head.jpg" width="50%"></img>
+            </div>
+            <div>图2:Blender定稿画面</div>
+            
+
+            
         </div>
         </div>
 };
