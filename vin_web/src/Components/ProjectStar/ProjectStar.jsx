@@ -22,11 +22,11 @@ const Project_star = () => {
             <MarkdownViewer markdownFilePath={Path}/>
 
             <div width='100%'>
-            <img src="img/img_cover.jpg" width="50%"></img>
+            <img src="img/img_cover.png" width="50%"></img>
             </div>
             <div>图1:实机运行画面</div>
             <div width='100%'>
-            <img src="img/img_head.jpg" width="50%"></img>
+            <img src="img/img_head.png" width="50%"></img>
             </div>
             <div>图2:Blender定稿画面</div>
             
